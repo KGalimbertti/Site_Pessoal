@@ -29,3 +29,20 @@
   font-display: swap;
   src: url("../vendor/fonts/InterDisplay-Bold.ttf");
 }
+
+@font-face {
+  font-family: "rubik", sans-serif;
+
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../vendor/fonts/Rubik-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../vendor/fonts/Rubik-Italic-VariableFont_wght.ttf");
+}

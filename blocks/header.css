@@ -1,0 +1,30 @@
+.header {
+  background-color: rgb(173, 173, 171);
+  color: black;
+}
+
+.header__image {
+  align-self: center;
+  height: 40px;
+  width: 40px;
+}
+nav {
+  background-color: #ededed;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 33px;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px 0px #00000025;
+}
+
+.header__list {
+  display: flex;
+}
+
+.header__list-item {
+  padding-left: 73px;
+  list-style-type: none;
+}
