@@ -1,13 +1,12 @@
 .about {
   display: flex;
   background-color: gray;
+  justify-content: space-between;
 }
 
 .about__photo {
   width: 40vw;
-  height: 100%;
-  /*fazer a imagem aparecer*/
-  background-image: url("images/image.jpeg");
+  background-image: url("../images/image.jpeg");
   background-size: cover;
 }
 
@@ -35,6 +34,9 @@
   font-weight: 600;
   line-height: 2.4rem;
   /*ver pq não está dando espaço entre a descrição e o botão*/
+}
+
+.about__history {
   padding-bottom: 54px;
 }
 

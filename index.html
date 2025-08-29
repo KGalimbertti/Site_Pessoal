@@ -14,11 +14,13 @@
       <nav>
         <img class="header__image" src="./icons/home.png" alt="Casa" />
         <ul class="header__list">
-          <li class="header__list-item">Sobre mim</li>
-          <li class="header__list-item">Skills</li>
-          <li class="header__list-item">Projetos</li>
+          <li class="header__list-item"><a href="#about">Sobre mim</a></li>
+          <li class="header__list-item"><a href="#skills">Skills</a></li>
+          <li class="header__list-item"><a href="#projects">Projetos</a></li>
 
-          <li class="header__list-item"><b>Contato</b></li>
+          <li class="header__list-item">
+            <a href="#contact"><b>Contato</b></a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -43,24 +45,32 @@
       </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
       <div class="about__description-container">
         <div class="about__description">
           <h2 class="about__title">SOBRE MIM</h2>
-          <p class="about__history">Sou Kauê e tenho 32 anos ahushuashuahsuahsuhaushaushau agsagsyagsygay asgyagsygasy agsyagsyagsyag gaysgaysgaysgas gyasgaysgyags gaysgaysgaysg agsyagsyagsyg agsygasygaysgaysgays gasygaysgas gasygaysgaysg gaysgaysgaysgays gasyagsygaysgas</p>
+          <p class="about__history">
+            Sou Kauê e tenho 32 anos ahushuashuahsuahsuhaushaushau
+            agsagsyagsygay asgyagsygasy agsyagsyagsyag gaysgaysgaysgas
+            gyasgaysgyags gaysgaysgaysg agsyagsyagsyg agsygasygaysgaysgays
+            gasygaysgas gasygaysgaysg gaysgaysgaysgays gasyagsygaysgas
+          </p>
           <div class="about__button">
             <img class="about__icon" src="./icons/linkedin.png" alt="" />
             <a
-              href="https://www.linkedin.com/in/kauegalimbertti/" target="_blank"
+              href="https://www.linkedin.com/in/kauegalimbertti/"
+              target="_blank"
               class="about__button-description"
             >
               Confira meu LinkedIn
             </a>
+          </div>
+        </div>
       </div>
       <div class="about__photo"></div>
     </section>
 
-    <section class="skills">
+    <section class="skills" id="skills">
       <div class="skills__overlay">
         <h2 class="skills__title">SKILLS</h2>
         <ul class="skills__list">
@@ -72,40 +82,50 @@
           <li class="skills__list-item">GitHub</li>
         </ul>
         <div class="skills__button">
-        <img class="skills__icon" src="./icons/Download.png" alt="" />
-        <a
-          href="./sources/Currículo Kauê.pdf"
-          download="Currículo Kauê.pdf"
-          class="skills__button-description"
-        >
-         Baixar currículo completo
-        </a>
+          <img class="skills__icon" src="./icons/Download.png" alt="" />
+          <a
+            href="./sources/Currículo Kauê.pdf"
+            download="Currículo Kauê.pdf"
+            class="skills__button-description"
+          >
+            Baixar currículo completo
+          </a>
+        </div>
       </div>
-      </div>
-
-
     </section>
-    <section class="projects">
+    <section class="projects" id="projects">
       <h2>PROJETOS</h2>
     </section>
 
-
-    <section class="contact">
+    <section class="contact" id="contact">
       <div class="contact__container">
-        <h2 class="contact__title">CONTATO</h2>
-        <p class="contact__text">Gostaria de bater um papo comigo? Vou deixar todas as minhas formas de contato e redes sociais listadas abaixo.</p>
-        <address>
-          <div>
-            <img src="./icons/Email.png" alt="Email">
-            <p>kaue_mamprim@hotmail.com</p>
+        <div class="contact__description">
+          <h2 class="contact__title">CONTATO</h2>
+          <p class="contact__text">
+            Gostaria de bater um papo comigo? Vou deixar todas as minhas formas
+            de contato e redes sociais listadas abaixo.
+          </p>
+          <address class="contact__address">
+            <div class="contact__email">
+              <img src="./icons/Email.png" alt="Email" />
+              <p class="contact__text-icon">kaue_mamprim@hotmail.com</p>
+            </div>
+            <div class="contact__phone">
+              <img src="./icons/Whatsapp.png" alt="Whatsapp" />
+              <p class="contact__text-icon">+55 (11) 9 9997-9199</p>
+            </div>
+          </address>
+          <div class="contact__midias">
+            <a
+              href="https://www.linkedin.com/in/kauegalimbertti/"
+              target="_blank"
+              ><img src="./icons/linkedin-icon.png" alt="LinkedIn"
+            /></a>
+            <a href="https://github.com/KGalimbertti" target="_blank"
+              ><img src="./icons/github.png" alt="GitHub"
+            /></a>
           </div>
-          <div>
-            <img src="./icons/Whatsapp.png" alt="Whatsapp">
-            <p>+55 (11) 9 9997-9199</p>
-          </div>
-        </address>
-        <a href=""><img src="./icons/linkedin-icon.png" alt="LinkedIn"></a>
-        <a href=""><img src="./icons/github.png" alt="GitHub"></a>
+        </div>
       </div>
       <div class="contacts__photo"></div>
     </section>

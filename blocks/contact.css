@@ -1,11 +1,10 @@
 .contact {
-  background-color: blue;
+  background-color: #2343e3;
   display: flex;
 }
 
 .contacts__photo {
-  /*fazer a imagem aparecer*/
-  background-image: url("images/image.jpeg");
+  background-image: url("../images/image.jpeg");
   background-size: cover;
   width: 40vw;
 }
@@ -15,13 +14,73 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.contact__description {
+  width: 80%;
+  max-width: 700px;
 }
 
 .contact__title {
-  font-size: 50px;
+  font-size: 40px;
   padding-bottom: 24px;
+  text-decoration: underline;
 }
 
 .contact__text {
-  font-size: 30px;
+  font-size: 25px;
+  padding-bottom: 25px;
+  line-height: 2.4rem;
+}
+
+.contact__address {
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.contact__email-image {
+  width: 32px;
+  height: 22px;
+  align-items: center;
+  margin: 0px 0px 12px 0px;
+}
+
+.contact__email {
+  display: flex;
+  padding-bottom: 12px;
+  align-items: center;
+  margin: 0px 0px 12px 0px;
+}
+
+.contact__phone-image {
+  width: 28px;
+  height: 28px;
+  margin: 0px 0px 12px 0px;
+}
+
+.contact__phone {
+  display: flex;
+  align-items: center;
+  margin: 0px 0px 12px 0px;
+}
+
+.contact__text-icon {
+  padding-left: 14px;
+  font-size: 25px;
+  align-items: center;
+}
+
+.contact__midias {
+  display: flex;
+  gap: 16px;
+  cursor: pointer;
+
+  a {
+    background-color: #3756f3;
+    padding: 12px;
+    border-radius: 8px;
+    width: 28px;
+    height: 28px;
+  }
 }
