@@ -1,3 +1,27 @@
 .contact {
   background-color: blue;
+  display: flex;
+}
+
+.contacts__photo {
+  /*fazer a imagem aparecer*/
+  background-image: url("images/image.jpeg");
+  background-size: cover;
+  width: 40vw;
+}
+
+.contact__container {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact__title {
+  font-size: 50px;
+  padding-bottom: 24px;
+}
+
+.contact__text {
+  font-size: 30px;
 }
