@@ -3,12 +3,13 @@
 }
 
 .page {
-  max-width: 1280px;
+  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
   font-family: "inter", sans-serif;
   color: white;
 }
 
 section {
-  min-height: 100vh;
+  height: calc(100vh - 80px);
 }

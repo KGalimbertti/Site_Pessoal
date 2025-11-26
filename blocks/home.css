@@ -49,8 +49,46 @@
 
 .home__button-description {
   font-size: 20px;
-  color: #ffffff;
+  color: #070808;
   padding-left: 11px;
   cursor: pointer;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1240px) {
+  .home {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .home__image {
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+  }
+
+  .home__title {
+    font-size: 2.6rem;
+  }
+
+  .home__ocupation {
+    font-size: 1.71rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .home__image {
+    height: 25vh;
+    width: 25vh;
+    border-radius: 50%;
+  }
+
+  .home__title {
+    font-size: 2rem;
+  }
+
+  .home__ocupation {
+    font-size: 1.5rem;
+  }
 }

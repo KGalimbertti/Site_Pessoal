@@ -36,3 +36,9 @@ nav {
   padding-left: 50px;
   list-style-type: none;
 }
+
+@media screen and (max-width: 540px) {
+  .header {
+    display: none;
+  }
+}

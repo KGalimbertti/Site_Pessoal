@@ -1,24 +1,27 @@
 .contact {
   background-color: #2343e3;
   display: flex;
+  scroll-margin-top: 80px;
 }
 
 .contacts__photo {
   background-image: url("../images/image.jpeg");
   background-size: cover;
+  background-position: center;
   width: 40vw;
+  height: 100%;
 }
 
 .contact__container {
-  width: 60vw;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  flex-direction: row;
 }
 
 .contact__description {
-  width: 80%;
+  width: 60vw;
   max-width: 700px;
 }
 
@@ -32,6 +35,7 @@
   font-size: 25px;
   padding-bottom: 25px;
   line-height: 2.4rem;
+  text-align: justify;
 }
 
 .contact__address {
@@ -82,5 +86,71 @@
     border-radius: 8px;
     width: 28px;
     height: 28px;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .contact__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contacts__photo {
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+  }
+
+  .contact__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.6rem;
+  }
+
+  .contact__description {
+    font-size: 1.71rem;
+    padding-top: 25px;
+    width: 100%;
+  }
+
+  .contact__phone {
+    text-align: start;
+  }
+
+  .contact__midias {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .contacts__photo {
+    height: 25vh;
+    width: 25vh;
+    border-radius: 50%;
+  }
+
+  .contact__title {
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact__description {
+    font-size: 1.5rem;
+  }
+
+  .contact__address {
+    width: 100vw;
+    text-align: center;
+  }
+
+  .contact__midias {
+    align-items: center;
+    justify-content: center;
   }
 }

@@ -1,6 +1,7 @@
 .skills {
   background-image: url("../images/skills.png");
   background-size: cover;
+  scroll-margin-top: 80px;
 }
 
 .skills__overlay {
@@ -8,9 +9,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #ffffff70;
   opacity: 60%;
 }
 
@@ -59,4 +59,16 @@
   padding-left: 11px;
   cursor: pointer;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1240px) {
+  .skills__list {
+    max-width: 60%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  skills__list {
+    max-width: 80%;
+  }
 }

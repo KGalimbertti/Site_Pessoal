@@ -3,16 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Site Pessoal</title>
-    <meta name="keywords" content="html, programacao, css" />
+    <title>Site Pessoal Kauê Galimbertti</title>
+    <meta
+      name="keywords"
+      content="html, programação, css, JavaScript, currículo, site pessoal, tecnologia, portifólio"
+    />
     <meta name="author" content="Kauê Galimbertti" />
-    <meta name="description" content="" />
+    <meta
+      name="description"
+      content="Site de currículo pessoal de Kauê Galimbertti, programador front-end."
+    />
+    <meta name="robots" content="index, follow" />
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="page">
     <header class="header">
       <nav>
-        <img class="header__image" src="./icons/home.png" alt="Casa" />
+        <a href="#home">
+          <img class="header__image" src="./icons/home.png" alt="Casa" />
+        </a>
+
         <ul class="header__list">
           <li class="header__list-item"><a href="#about">Sobre mim</a></li>
           <li class="header__list-item"><a href="#skills">Skills</a></li>
@@ -25,7 +35,7 @@
       </nav>
     </header>
 
-    <section class="home">
+    <section class="home" id="home">
       <div class="home__image"></div>
       <div>
         <div class="home__description">
@@ -50,10 +60,22 @@
         <div class="about__description">
           <h2 class="about__title">SOBRE MIM</h2>
           <p class="about__history">
-            Sou Kauê e tenho 32 anos ahushuashuahsuahsuhaushaushau
-            agsagsyagsygay asgyagsygasy agsyagsyagsyag gaysgaysgaysgas
-            gyasgaysgyags gaysgaysgaysg agsyagsyagsyg agsygasygaysgaysgays
-            gasygaysgas gasygaysgaysg gaysgaysgaysgays gasyagsygaysgas
+            Desenvolvedor Frontend com foco em HTML, CSS e JavaScript. Sempre
+            tive curiosidade de entender como os sistemas funcionam e a vontade
+            de resolver problemas de forma criativame motivou a iniciar a minha
+            migração de carreira para tecnologia.<br /><br />
+            Estudo por meio de bootcamps, cursos online e faculdade de ADS e
+            sigo aprofundando meus conhecimentos com projetos práticos
+            publicados no GitHub. Minha trajetória anterior foi na área de
+            administração e gestão de pessoas, onde atuei como
+            sócio-administrador. Essa experiência me trouxe habilidades como
+            resolução de problemas, tomada de decisão, liderança de equipes e
+            comunicação (que espero empregar na minha atuação na área de
+            tecnologia).<br /><br />
+            Neste momento, busco uma oportunidade como desenvolvedor júnior para
+            aplicar meus conhecimentos técnicos, seguir evoluindo na prática e
+            contribuir com projetos desafiadores dentro de bons times de
+            tecnologia.
           </p>
           <div class="about__button">
             <img class="about__icon" src="./icons/linkedin.png" alt="" />
@@ -80,6 +102,7 @@
           <li class="skills__list-item">ES6</li>
           <li class="skills__list-item">Git</li>
           <li class="skills__list-item">GitHub</li>
+          <li class="skills__list-item">React</li>
         </ul>
         <div class="skills__button">
           <img class="skills__icon" src="./icons/Download.png" alt="" />
@@ -94,11 +117,126 @@
       </div>
     </section>
     <section class="projects" id="projects">
-      <h2>PROJETOS</h2>
+      <div class="project__container">
+        <h2 class="project__title">PROJETOS</h2>
+        <div class="project__cards">
+          <div class="project__card">
+            <h3 class="project__card-title">Prompts Manager</h3>
+            <p class="project__card-description">
+              O Prompt Manager é uma aplicação web prática e intuitiva que
+              permite organizar todos os seus prompts de Inteligência Artificial
+              em um só lugar.
+            </p>
+            <div class="project__button">
+              <img
+                class="project__icon"
+                src="./icons/github.png"
+                alt="GitHub"
+              />
+              <a
+                href="https://kgalimbertti.github.io/prompts_manager/"
+                target="_blank"
+                class="project__button-description"
+              >
+                Ver no GitHub
+              </a>
+            </div>
+          </div>
+          <div class="project__card">
+            <h3 class="project__card-title">Social Links</h3>
+            <p class="project__card-description">
+              O card de perfil social foi criado para facilitar a apresentação
+              de informações pessoais e links para redes sociais de forma
+              visualmente atraente. Utilizando técnicas avançadas de CSS.
+            </p>
+            <div class="project__button">
+              <img
+                class="project__icon"
+                src="./icons/github.png"
+                alt="GitHub"
+              />
+              <a
+                href="https://kgalimbertti.github.io/Social_links_Profile/"
+                target="_blank"
+                class="project__button-description"
+              >
+                Ver no GitHub
+              </a>
+            </div>
+          </div>
+          <div class="project__card">
+            <h3 class="project__card-title">Prompts Manager</h3>
+            <p class="project__card-description">
+              O Prompt Manager é uma aplicação web prática e intuitiva que
+              permite organizar todos os seus prompts de Inteligência Artificial
+              em um só lugar.
+            </p>
+            <div class="project__button">
+              <img
+                class="project__icon"
+                src="./icons/github.png"
+                alt="GitHub"
+              />
+              <a
+                href="https://kgalimbertti.github.io/prompts_manager/"
+                target="_blank"
+                class="project__button-description"
+              >
+                Ver no GitHub
+              </a>
+            </div>
+          </div>
+          <div class="project__card">
+            <h3 class="project__card-title">Prompts Manager</h3>
+            <p class="project__card-description">
+              O Prompt Manager é uma aplicação web prática e intuitiva que
+              permite organizar todos os seus prompts de Inteligência Artificial
+              em um só lugar.
+            </p>
+            <div class="project__button">
+              <img
+                class="project__icon"
+                src="./icons/github.png"
+                alt="GitHub"
+              />
+              <a
+                href="https://kgalimbertti.github.io/prompts_manager/"
+                download="Currículo Kauê.pdf"
+                class="project__button-description"
+              >
+                Ver no GitHub
+              </a>
+            </div>
+          </div>
+          <div class="project__card">
+            <h3 class="project__card-title">Social Links</h3>
+            <p class="project__card-description">
+              O card de perfil social foi criado para facilitar a apresentação
+              de informações pessoais e links para redes sociais de forma
+              visualmente atraente. Utilizando técnicas avançadas de CSS.
+            </p>
+            <div class="project__button">
+              <img
+                class="project__icon"
+                src="./icons/github.png"
+                alt="GitHub"
+              />
+              <a
+                href="https://kgalimbertti.github.io/Social_links_Profile/"
+                download="Currículo Kauê.pdf"
+                class="project__button-description"
+              >
+                Ver no GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="contact" id="contact">
       <div class="contact__container">
+        <div class="contacts__photo"></div>
         <div class="contact__description">
           <h2 class="contact__title">CONTATO</h2>
           <p class="contact__text">
@@ -127,7 +265,6 @@
           </div>
         </div>
       </div>
-      <div class="contacts__photo"></div>
     </section>
   </body>
 </html>

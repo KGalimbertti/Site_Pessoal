@@ -2,6 +2,7 @@
   display: flex;
   background-color: gray;
   justify-content: space-between;
+  scroll-margin-top: 80px;
 }
 
 .about__photo {
@@ -20,7 +21,7 @@
 
 .about__description {
   width: 80%;
-  height: 80%;
+  text-align: justify;
 }
 
 .about__title {
@@ -60,4 +61,38 @@
   padding-left: 11px;
   cursor: pointer;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1240px) {
+  .about {
+    justify-content: space-around;
+  }
+
+  .about__description-container {
+    width: 100vw;
+  }
+  /* preciso de ajuda para a foto diminuir junto com a tela */
+  .about__photo {
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .about__photo {
+    display: none;
+  }
+  /* deixar o texto pegando a tela toda */
+  .about__description-container {
+    width: 100vw;
+  }
+
+  .about__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about__button {
+    align-items: center;
+  }
 }
