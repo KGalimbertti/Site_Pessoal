@@ -15,7 +15,7 @@
 }
 
 .skills__list {
-  color: #3c3c3c;
+  color: #3c3c3c99;
   list-style-type: none;
   display: flex;
   justify-content: center;
@@ -23,10 +23,11 @@
   max-width: 800px;
   gap: 30px;
   padding-bottom: 150px;
+  opacity: 1;
 }
 
 .skills__list-item {
-  background-color: #00000039;
+  background-color: #00000090;
   padding: 12px 14px;
   border-radius: 8px;
   color: #ffffff;
